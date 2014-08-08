@@ -14,8 +14,7 @@ class EchoHooks {
 	 */
 	public static function initEchoExtension() {
 		global $wgEchoBackend, $wgEchoBackendName, $wgEchoNotifications,
-			$wgEchoNotificationCategories, $wgEchoNotificationIcons, $wgEchoConfig,
-			$wgNotificationSenderName;
+			$wgEchoNotificationCategories, $wgEchoNotificationIcons, $wgEchoConfig;
 
 		// allow extensions to define their own event
 		wfRunHooks( 'BeforeCreateEchoEvent', array( &$wgEchoNotifications, &$wgEchoNotificationCategories, &$wgEchoNotificationIcons ) );
@@ -30,11 +29,15 @@ class EchoHooks {
 				}
 			}
 		}
+	}
 
+	public static function getNotificationSenderName() {
+		global $wgNotificationSenderName;
 		if ( $wgNotificationSenderName === null ) {
 			$wgNotificationSenderName = wfMessage( 'emailsender' )->inContentLanguage()->text();
 		}
 
+		return $wgNotificationSenderName;
 	}
 
 	/**
