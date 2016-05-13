@@ -16,6 +16,7 @@ class ApiEchoNotifications extends ApiQueryBase {
 	}
 
 	public function execute() {
+		global $wgEchoCrossWikiNotifications;
 		// To avoid API warning, register the parameter used to bust browser cache
 		$this->getMain()->getVal( '_' );
 
@@ -41,8 +42,13 @@ class ApiEchoNotifications extends ApiQueryBase {
 			);
 		}
 
-		$this->foreignNotifications = new EchoForeignNotifications( $user );
-		$this->crossWikiSummary = $params['crosswikisummary'];
+		if ( $wgEchoCrossWikiNotifications ) {
+			$this->foreignNotifications = new EchoForeignNotifications( $user );
+			$this->crossWikiSummary = $params['crosswikisummary'];
+		} else {
+			$this->foreignNotifications = null;
+			$this->crossWikiSummary = false;
+		}
 
 		$result = array();
 		if ( in_array( 'list', $prop ) ) {
@@ -295,6 +301,8 @@ class ApiEchoNotifications extends ApiQueryBase {
 	}
 
 	public function getAllowedParams() {
+		global $wgEchoCrossWikiNotifications;
+
 		$sections = EchoAttributeManager::$sections;
 		$params = array(
 			'filter' => array(
@@ -332,12 +340,6 @@ class ApiEchoNotifications extends ApiQueryBase {
 				),
 				ApiBase::PARAM_HELP_MSG_PER_VALUE => array(),
 			),
-			// create "x notifications from y wikis" notification bundle &
-			// include unread counts from other wikis in prop=count results
-			'crosswikisummary' => array(
-				ApiBase::PARAM_TYPE => 'boolean',
-				ApiBase::PARAM_DFLT => false,
-			),
 			'limit' => array(
 				ApiBase::PARAM_TYPE => 'limit',
 				ApiBase::PARAM_DFLT => 20,
@@ -358,6 +360,17 @@ class ApiEchoNotifications extends ApiQueryBase {
 			$params[$section . 'unreadfirst'] = array(
 				ApiBase::PARAM_TYPE => 'boolean',
 				ApiBase::PARAM_DFLT => false,
+			);
+		}
+
+		if ( $wgEchoCrossWikiNotifications ) {
+			$params += array(
+				// create "x notifications from y wikis" notification bundle &
+				// include unread counts from other wikis in prop=count results
+				'crosswikisummary' => array(
+					ApiBase::PARAM_TYPE => 'boolean',
+					ApiBase::PARAM_DFLT => false,
+				),
 			);
 		}
 
