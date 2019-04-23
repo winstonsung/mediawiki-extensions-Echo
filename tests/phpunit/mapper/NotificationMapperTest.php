@@ -131,10 +131,27 @@ class EchoNotificationMapperTest extends MediaWikiTestCase {
 		$mockDb = $this->getMockBuilder( DatabaseMysqli::class )
 			->disableOriginalConstructor()
 			->getMock();
-		$mockDb->expects( $this->any() )
-			->method( 'selectFieldValues' )
-			->will( $this->returnValue( [ 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 ] ) );
+		$makeResultRows = function ( $eventIds ) {
+			return new ArrayIterator( array_map( function ( $eventId ) {
+				return (object)[ 'notification_event' => $eventId ];
+			}, $eventIds ) );
+		};
+		$mockDb->expects( $this->exactly( 4 ) )
+			->method( 'select' )
+			->willReturnOnConsecutiveCalls(
+				$this->returnValue( $makeResultRows( [ 1, 2, 3, 5 ] ) ),
+				$this->returnValue( $makeResultRows( [ 8, 13, 21, 34 ] ) ),
+				$this->returnValue( $makeResultRows( [ 55, 89 ] ) ),
+				$this->returnValue( $makeResultRows( [] ) )
+			);
 		$mockDb->expects( $this->exactly( 3 ) )
+			->method( 'selectFieldValues' )
+			->willReturnOnConsecutiveCalls(
+				$this->returnValue( [] ),
+				$this->returnValue( [ 13, 21 ] ),
+				$this->returnValue( [ 55 ] )
+			);
+		$mockDb->expects( $this->exactly( 7 ) )
 			->method( 'delete' )
 			->withConsecutive(
 				[
@@ -148,8 +165,28 @@ class EchoNotificationMapperTest extends MediaWikiTestCase {
 					$this->anything()
 				],
 				[
+					$this->equalTo( 'echo_event' ),
+					$this->equalTo( [ 'event_id' => [ 13, 21 ] ] ),
+					$this->anything()
+				],
+				[
+					$this->equalTo( 'echo_target_page' ),
+					$this->equalTo( [ 'etp_event' => [ 13, 21 ] ] ),
+					$this->anything()
+				],
+				[
 					$this->equalTo( 'echo_notification' ),
 					$this->equalTo( [ 'notification_user' => 1, 'notification_event' => [ 55, 89 ] ] ),
+					$this->anything()
+				],
+				[
+					$this->equalTo( 'echo_event' ),
+					$this->equalTo( [ 'event_id' => [ 55 ] ] ),
+					$this->anything()
+				],
+				[
+					$this->equalTo( 'echo_target_page' ),
+					$this->equalTo( [ 'etp_event' => [ 55 ] ] ),
 					$this->anything()
 				]
 			)
