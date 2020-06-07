@@ -244,6 +244,9 @@ class EchoHooks {
 		}
 		$updater->dropExtensionIndex( 'echo_notification', 'echo_notification_user_hash_timestamp',
 			"$dir/db_patches/patch-drop-user-hash-timestamp-index.sql" );
+
+		$updater->modifyExtensionField( 'echo_unread_wikis', 'euw_wiki',
+			"$dir/db_patches/patch-increase-varchar-echo_unread_wikis-euw_wiki.sql" );
 	}
 
 	/**
