@@ -13,6 +13,6 @@
 		<exclude name="Squiz.Scope.MethodScope.Missing" />
 	</rule>
 	<arg name="encoding" value="UTF-8" />
-	<arg name="extensions" value="php,php5,inc" />
+	<arg name="extensions" value="php" />
 	<arg name="colors" />
 </ruleset>
