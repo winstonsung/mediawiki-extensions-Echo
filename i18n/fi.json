@@ -16,7 +16,11 @@
 			"Samoasambia",
 			"Silvonen",
 			"Stryn",
-			"VezonThunder"
+			"VezonThunder",
+			"MITO",
+			"Rönttönen",
+			"Veikk0.ma",
+			"Zzko"
 		]
 	},
 	"echo-desc": "Järjestelmä jonka avulla käyttäjille voi lähettää ilmoituksia tapahtumista ja viesteistä",
@@ -31,6 +35,7 @@
 	"echo-pref-email-format": "Sähköpostin muoto:",
 	"echo-pref-web": "Verkko",
 	"echo-pref-email": "Sähköposti",
+	"echo-pref-push": "Sovellukset",
 	"echo-pref-email-frequency-never": "Älä lähetä minulle sähköposti-ilmoituksia",
 	"echo-pref-email-frequency-immediately": "Yksittäiset ilmoitukset sitä mukaa kun niitä tulee",
 	"echo-pref-email-frequency-daily": "Päivittäinen yhteenveto ilmoituksista",
@@ -64,7 +69,7 @@
 	"echo-pref-tooltip-mention-success": "Ilmoita minulle, kun maininnan lähettäminen toiselle käyttäjälle onnistui.",
 	"echo-pref-tooltip-user-rights": "Ilmoita, kun joku muuttaa käyttöoikeuksiani.",
 	"echo-pref-tooltip-emailuser": "Ilmoita, kun joku lähettää minulle sähköpostia.",
-	"echo-pref-tooltip-thank-you-edit": "Ilmoita, kun teen ensimmäisen, 10:nnen, 100:nnen jne muokkaukseni.",
+	"echo-pref-tooltip-thank-you-edit": "Ilmoita, kun teen ensimmäisen, 10:nnen, 100:nnen jne. muokkaukseni.",
 	"notifications": "Ilmoitukset",
 	"tooltip-pt-notifications-alert": "{{GENDER:|Hälytyksesi}}",
 	"tooltip-pt-notifications-notice": "{{GENDER:|Ilmoituksesi}}",
@@ -166,7 +171,7 @@
 	"notification-inbox-filter-read": "Luetut",
 	"notification-inbox-filter-unread": "Lukemattomat",
 	"notification-inbox-filter-all": "Kaikki",
-	"echo-specialmute-label-mute-notifications": "Vaimenna ilmoitukset tältä käyttäjältä",
+	"echo-specialmute-label-mute-notifications": "Vaimenna ilmoitukset tältä {{GENDER:$1|käyttäjältä}}",
 	"echo-email-plain-footer": "Valitaksesi mitä sähköposteja lähetämme {{GENDER:$1|sinulle}}, tarkista asetuksesi:",
 	"echo-email-html-footer-preference-link-text": "tarkista {{GENDER:$1|asetuksesi}}",
 	"echo-email-html-footer-with-link": "Valitaksesi mitä sähköposteja lähetämme {{GENDER:$2|sinulle}}, $1.",

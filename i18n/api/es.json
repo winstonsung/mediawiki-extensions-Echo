@@ -6,7 +6,9 @@
 			"Fitoschido",
 			"Jduranboger",
 			"Macofe",
-			"Tiberius1701"
+			"Tiberius1701",
+			"Jackiezelaya",
+			"Jakeukalane"
 		]
 	},
 	"apihelp-echomarkread-description": "Marcar notificaciones como leídas para el usuario actual.",
@@ -24,6 +26,7 @@
 	"apihelp-echomarkseen-param-type": "Tipo de notificaciones para marcar como leídas: 'alert' (alerta), 'message' (mensaje) o 'all' (todas).",
 	"apihelp-echomarkseen-param-timestampFormat": "Formato de fecha y hora que utilizar para la salida, «ISO_8601» o «MW». «MW» aquí está desusado, por lo que todos los clientes deben cambiar a «ISO_8601». Este parámetro desaparecerá y el único formato de salida será «ISO_8601».",
 	"apihelp-echopushsubscriptions-param-command": "La acción que debe realizarse.",
+	"apihelp-echopushsubscriptions+create-param-topic": "El APNS tema (fardo de aplicación ID) para enviar la notificación a.",
 	"apihelp-query+notifications-description": "Recibe notificaciones en espera para el usuario actual.",
 	"apihelp-query+notifications-summary": "Recibir notificaciones pendientes del usuario actual.",
 	"apihelp-query+notifications-param-prop": "Detalles que solicitar.",
@@ -36,7 +39,7 @@
 	"apihelp-query+notifications-paramvalue-format-flyout": "<span class=\"apihelp-deprecated\">Desaconsejado</span>. Usa <kbd>$1format=model</kbd> para datos en crudo",
 	"apihelp-query+notifications-paramvalue-format-html": "<span class=\"apihelp-deprecated\">Desaconsejado</span>. Usa <kbd>$1format=model</kbd> para datos en crudo",
 	"apihelp-query+notifications-param-limit": "Número máximo de notificaciones a recibir.",
-	"apihelp-query+notifications-param-wikis": "Lista de wikis desde las cuales obtener notificaciones (usa el wiki actual de manera predeterminada).",
+	"apihelp-query+notifications-param-wikis": "Lista de wikis desde las cuales obtener notificaciones (usa la wiki actual de manera predeterminada).",
 	"apihelp-query+notifications-param-alertcontinue": "Cuando haya más resultados de alerta disponibles, utiliza esto para continuar.",
 	"apihelp-query+notifications-param-unreadfirst": "Si se muestran las notificaciones sin leer primero (sólo se utiliza si se establece groupbysection).",
 	"apihelp-query+notifications-param-alertunreadfirst": "Si se muestran las notificaciones de mensajes sin leer primero (sólo se usa si se establece groupbysection).",
@@ -49,7 +52,7 @@
 	"apihelp-query+unreadnotificationpages-summary": "Recibir páginas para las que hay notificaciones no leídas para el usuario actual.",
 	"apihelp-query+unreadnotificationpages-param-grouppages": "Agrupar páginas de discusión junto con su página de asunto asociada, y agrupar notificaciones no asociadas con una página junto con la página de usuario del usuario actual.",
 	"apihelp-query+unreadnotificationpages-param-limit": "El máximo número de páginas que se devolverán.",
-	"apihelp-query+unreadnotificationpages-param-wikis": "Lista de wikis desde las cuales obtener notificaciones sin leer (usa el wiki actual de manera predeterminada).",
+	"apihelp-query+unreadnotificationpages-param-wikis": "Lista de wikis desde las cuales obtener notificaciones sin leer (usa la wiki actual de manera predeterminada).",
 	"apihelp-query+unreadnotificationpages-example-1": "Lista páginas con (la cantidad de) notificaciones sin leer",
 	"apihelp-echoarticlereminder-summary": "Solicitar un recordatorio futuro sobre el artículo especificado",
 	"apihelp-echoarticlereminder-param-pageid": "Identificador del artículo sobre el cual recordar al usuario",
