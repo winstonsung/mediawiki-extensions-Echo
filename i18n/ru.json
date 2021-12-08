@@ -45,7 +45,8 @@
 			"ЛосЯш",
 			"Умар",
 			"Чаховіч Уладзіслаў",
-			"MirandaBlack"
+			"MirandaBlack",
+			"Pacha Tchernof"
 		]
 	},
 	"echo-desc": "Система уведомления участников о событиях и сообщениях",
@@ -73,7 +74,7 @@
 	"echo-pref-email-format-plain-text": "Простой текст",
 	"echo-pref-cross-wiki-notifications": "Показывать уведомления с других вики",
 	"echo-pref-notifications-blacklist": "Не показывать уведомления от этих участников ([[mw:Special:MyLanguage/Help:Notifications#mute|узнать больше]]):",
-	"echo-pref-notifications-page-linked-title-muted-list": "Не показывать уведомления \"Ссылка на странице\" для этих страниц. ([[mw:Special:MyLanguage/Help:Notifications#mute|узнать больше]])",
+	"echo-pref-notifications-page-linked-title-muted-list": "Не показывать уведомления «Ссылка на странице» для следующих страниц. ([[mw:Special:MyLanguage/Help:Notifications#mute|узнать больше]])",
 	"echo-pref-dont-email-read-notifications": "Не включать чтение уведомлений в сводки по эл. почте",
 	"echo-learn-more": "Узнать больше",
 	"echo-log": "Общедоступный журнал",
@@ -91,7 +92,7 @@
 	"echo-category-title-user-rights": "{{PLURAL:$1|Изменение|Изменения}} прав участника",
 	"echo-category-title-emailuser": "Электронная почта от {{PLURAL:$1|другого участника|других участников}}",
 	"echo-category-title-article-reminder": "Страница {{PLURAL:$1|напоминание|напоминания}}",
-	"echo-category-title-thank-you-edit": "{{PLURAL:$1|Достигнутая правка|достигнутые правки}}",
+	"echo-category-title-thank-you-edit": "{{PLURAL:$1|Достижение|Достижение}} круглого числа правок",
 	"echo-category-title-watchlist": "Правка в наблюдаемой странице",
 	"echo-category-title-minor-watchlist": "Малая правка в наблюдаемой странице",
 	"echo-pref-tooltip-edit-user-talk": "Сообщать мне, когда кто-то посылает сообщение или отвечает на моей странице обсуждения.",
