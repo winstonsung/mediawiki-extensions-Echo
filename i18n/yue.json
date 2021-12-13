@@ -5,7 +5,10 @@
 			"Ktchankt",
 			"Suzukaze-c",
 			"William915",
-			"Wong128hk"
+			"Wong128hk",
+			"Hello903hello",
+			"Moon0319",
+			"Roy17"
 		]
 	},
 	"echo-desc": "通知系統",
@@ -47,7 +50,7 @@
 	"notification-link-text-view-edit": "去睇改咗啲乜",
 	"echo-notification-alert-text-only": "提示",
 	"echo-notification-notice-text-only": "通知",
-	"echo-overlay-link": "所有通知",
+	"echo-overlay-link": "全部通知",
 	"echo-overlay-title": "<b>通知</b>",
 	"echo-mark-all-as-read": "全部標做讀過",
 	"echo-date-today": "今日",

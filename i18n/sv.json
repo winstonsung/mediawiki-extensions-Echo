@@ -19,7 +19,9 @@
 			"Skalman",
 			"Tobulos1",
 			"Umeaboy",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Felba",
+			"Sabelöga"
 		]
 	},
 	"echo-desc": "System för att meddela användare om händelser och meddelanden",
@@ -27,7 +29,7 @@
 	"prefs-emailsettings": "E-postinställningar",
 	"prefs-echosubscriptions": "Meddela mig om dessa händelser",
 	"prefs-echocrosswiki": "Interwikiaviseringar",
-	"prefs-blocknotificationslist": "Ignorerade användare",
+	"prefs-blocknotificationslist": "Tysta användare",
 	"prefs-mutedpageslist": "Sidor undantagna från sidlänkningsavisering",
 	"prefs-echopollupdates": "Direktaviseringar",
 	"echo-mobile-notifications-filter-title": "Filtrera aviseringar",
@@ -45,7 +47,7 @@
 	"echo-pref-email-frequency-weekly": "En veckovis sammanställning av aviseringar",
 	"echo-pref-email-format-html": "HTML",
 	"echo-pref-email-format-plain-text": "Oformaterad text",
-	"echo-pref-cross-wiki-notifications": "Visa aviseringar från andra wikis",
+	"echo-pref-cross-wiki-notifications": "Visa aviseringar från andra wikier",
 	"echo-pref-notifications-blacklist": "Visa inte aviseringar från dessa användare. ([[mw:Special:MyLanguage/Help:Notifications#mute|läs mer]])",
 	"echo-pref-notifications-page-linked-title-muted-list": "Visa inte sidlänkningsaviseringar för dessa sidor. ([[mw:Special:MyLanguage/Help:Notifications#mute|läs mer]])",
 	"echo-pref-dont-email-read-notifications": "Inkludera inte lästa aviseringar i sammanfattningsmeddelanden",
@@ -118,10 +120,10 @@
 	"echo-notification-more-options-tooltip": "Fler alternativ",
 	"notification-dynamic-actions-mute-page-linked": "{{GENDER:$2|Visa inte}} länkningsaviseringar för \"$1\"",
 	"notification-dynamic-actions-mute-page-linked-confirmation": "Sidlänkningsavisering är nu inaktiverad för sidan \"$1\"",
-	"notification-dynamic-actions-mute-page-linked-confirmation-description": "{{GENDER:$2|Du}} kan hantera dina tystade sidor i [$1 dina inställningar] när som helst.",
+	"notification-dynamic-actions-mute-page-linked-confirmation-description": "{{GENDER:$2|Du}} kan hantera sidorna du har tystat i [$1 dina inställningar] när som helst.",
 	"notification-dynamic-actions-unmute-page-linked": "{{GENDER:$2|Visa}} sidlänkningsaviseringar för \"$1\"",
 	"notification-dynamic-actions-unmute-page-linked-confirmation": "Sidlänkningsmeddelanden är nu aktiverade för sidan \"$1\"",
-	"notification-dynamic-actions-unmute-page-linked-confirmation-description": "{{GENDER:$2|Du}} kan hantera dina tystade sidor i [$1 dina inställningar] när som helst.",
+	"notification-dynamic-actions-unmute-page-linked-confirmation-description": "{{GENDER:$2|Du}} kan hantera sidorna du har tystat i [$1 dina inställningar] när som helst.",
 	"notification-dynamic-actions-unwatch": "{{GENDER:$3|Sluta}} bevaka ny aktivitet på \"$1\"",
 	"notification-dynamic-actions-unwatch-confirmation": "{{GENDER:$3|Du}} bevakar inte längre sidan \"$1\"",
 	"notification-dynamic-actions-unwatch-confirmation-description": "{{GENDER:$3|Du}} kan bevaka [$2 denna sida] när som helst.",
@@ -233,7 +235,7 @@
 	"echo-email-batch-body-intro-daily": "Hej $1,\nHär är en sammanfattning av dagens aktivitet på {{SITENAME}} för dig.",
 	"echo-email-batch-body-intro-weekly": "Hej $1,\nHär är en sammanfattning av veckans aktivitet på {{SITENAME}} för dig.",
 	"echo-email-batch-link-text-view-all-notifications": "Visa alla aviseringar",
-	"notification-header-foreign-alert": "Fler systemmeddelanden från {{PLURAL:$5|en annan wiki|$5 andra wikis|0=}}",
-	"notification-header-foreign-notice": "Flera notiser från {{PLURAL:$5|en annan wiki|$5 andra wikis}}",
-	"notification-header-foreign-all": "Fler aviseringar från {{PLURAL:$5|en annan wiki|$5 andra wikis}}"
+	"notification-header-foreign-alert": "Fler systemmeddelanden från {{PLURAL:$5|en annan wiki|$5 andra wikier|0=}}",
+	"notification-header-foreign-notice": "Flera notiser från {{PLURAL:$5|en annan wiki|$5 andra wikier}}",
+	"notification-header-foreign-all": "Fler aviseringar från {{PLURAL:$5|en annan wiki|$5 andra wikier}}"
 }
