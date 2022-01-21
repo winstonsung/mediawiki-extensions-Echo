@@ -532,6 +532,9 @@ abstract class EchoEventPresentationModel implements JsonSerializable {
 	 * @return array
 	 * @throws TimestampException
 	 */
+	// phpcs:disable
+	#[ReturnTypeWillChange]
+	// phpcs:enable
 	public function jsonSerialize() {
 		$body = $this->getBodyMessage();
 
