@@ -8,7 +8,8 @@
 			"Reza1615",
 			"فلورانس",
 			"Beginneruser",
-			"Jeeputer"
+			"Jeeputer",
+			"Mohammad ebz"
 		]
 	},
 	"apihelp-echomarkread-description": "آگاه‌سازی‌‌ها برای کاربر کنونی به عنوان خوانده‌شده نشانه‌گذاری شوند.",
@@ -18,7 +19,7 @@
 	"apihelp-echomarkread-param-all": "اگر تنظیم شده‌باشد، همهٔ آگاه‌سازی‌‌ها یک کاربر به عنوان خوانده‌شده نشانه‌گذاری شوند.",
 	"apihelp-echomarkread-param-sections": "فهرستی از شناسه های آگاه سازی به عنوان خوانده شده",
 	"apihelp-echomarkread-example-1": "علامت‌گذاری آگاه‌سازی 8 به عنوان خوانده شده",
-	"apihelp-echomarkread-example-2": "علامت‌گذاری تمامی آگاه‌سازی‌ها به عنوان خوانده شده",
+	"apihelp-echomarkread-example-2": "علامت‌گذاری تمامی اعلان‌ها به عنوان خوانده‌شده",
 	"apihelp-echomarkread-example-3": "علامت‌گذاری آگاه‌سازی 1 به عنوان خوانده‌نشده",
 	"apihelp-echomarkseen-description": "علامت گذاری به عنوان آگاه‌سازی‌‌های خوانده شده برای کاربر کنونی",
 	"apihelp-echomarkseen-summary": "علامت گذاری آگاه‌سازی‌ها به عنوان دیده شده برای کاربر کنونی.",
@@ -30,7 +31,7 @@
 	"apihelp-query+notifications-param-prop": "جزئیات به درخواست.",
 	"apihelp-query+notifications-param-sections": "بخش آگاه‌سازی پرسمان (مانند هشدار و پیام بعضی از مشارکت‌ها)",
 	"apihelp-query+notifications-param-groupbysection": "برای گروه‌بندی نتایج توسط بخش، در صورت تنظیم هر بخش به صورت جداگانه دریافت می‌شود.",
-	"apihelp-query+notifications-param-filter": "پالایش آگاه‌سازی‌های دریافتی",
+	"apihelp-query+notifications-param-filter": "پالایش آگاهی‌سازی‌های برگردانده شده.",
 	"apihelp-query+notifications-param-format": "در صورت تخصیص داده شدن، آگاه‌سازی‌ها به صورت این فرمت بازگردانده می‌شوند.",
 	"apihelp-query+notifications-paramvalue-format-model": "اطلاعات خام آگاه‌سازی",
 	"apihelp-query+notifications-paramvalue-format-special": "ساختار یافته برای صفحهٔ Special:Notifications (فقط برای آن!) به HTML توجه نکنید که هر زمان ممکن است عوض شود.",
