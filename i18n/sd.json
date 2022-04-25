@@ -144,6 +144,7 @@
 	"notification-inbox-filter-read": "پڙھيل",
 	"notification-inbox-filter-unread": "اڻپڙھيل",
 	"notification-inbox-filter-all": "سڀ",
+	"echo-specialmute-label-mute-notifications": "ھن {{GENDER:$1|واپرائيندڙ}} پاران اطلاع مِيُوٽِ ڪريو",
 	"echo-email-html-footer-preference-link-text": "{{GENDER:$1|پنھنجون}} ترجيحون چڪاسيو",
 	"echo-notification-alert-text-only": "پيغام",
 	"echo-notification-notice-text-only": "اطلاع",
@@ -156,6 +157,7 @@
 	"echo-date-yesterday": "ڪالھ",
 	"echo-email-batch-bullet": "•",
 	"echo-email-batch-link-text-view-all-notifications": "سڀ اطلاعَ ڏسو",
+	"notification-header-foreign-notice": "وڌيڪ {{PLURAL:$5|ھڪ وکي|$5 ٻين کان}} اطلاع",
 	"echo-foreign-wiki-lang": "$1 - $2",
-	"echo-badge-count": "{{PLURAL:$1|$1|100=99+}}"
+	"echo-badge-count": "{{PLURAL:$1|$1|100={{formatnum:99}}+}}"
 }
