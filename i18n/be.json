@@ -8,7 +8,8 @@
 			"Дзяніс Тутэйшы",
 			"Чаховіч Уладзіслаў",
 			"ZlyiLev",
-			"Tomato Cream"
+			"Tomato Cream",
+			"Chadyka"
 		]
 	},
 	"echo-desc": "Сістэма апавяшчэння ўдзельнікаў пра падзеі і паведамленні",
@@ -95,7 +96,7 @@
 	"echo-specialpage-pagefilters-subtitle": "Старонкі з непрагледжанымі апавяшчэннямі",
 	"notificationsmarkread-legend": "Пазначыць апавяшчэнні як прачытаныя",
 	"echo-none": "Вы не атрымлівалі паведамленняў.",
-	"echo-api-failure": "Немагчыма атрымаць апавяшчэнні. Калі ласка, паспрабуйце яшчэ раз. (Памылка $1)",
+	"echo-api-failure": "Немагчыма атрымаць апавяшчэнні.",
 	"echo-api-failure-cross-wiki": "Доступ к аддаленаму дамену забаронены.",
 	"echo-notification-placeholder": "Няма апавяшчэнняў.",
 	"echo-notification-placeholder-filters": "Няма апавяшчэнняў, якія адпавядаюць уведзеным крытэрыям.",
@@ -120,7 +121,7 @@
 	"notification-link-text-expand-all": "Разгарнуць",
 	"notification-link-text-expand-alert-count": "Паказаць {{PLURAL:$1|$1 папярэджанне|$1 папярэджанні|$1 папярэджанняў}}",
 	"notification-link-text-expand-notice-count": "Паказаць {{PLURAL:$1|$1 паведамленне|$1 паведамленні|$1 паведамленняў}}",
-	"notification-link-text-expand-all-count": "Разгарнуць {{PLURAL:$1|$1 апавяшчэнне|$1 апавяшчэнні|$1 апавяшчэнняў}}",
+	"notification-link-text-expand-all-count": "Паказаць {{PLURAL:$1|$1 апавяшчэнне|$1 апавяшчэнні|$1 апавяшчэнняў}}",
 	"notification-link-text-collapse-all": "Згарнуць",
 	"notification-link-text-view-message": "Прагляд паведамленняў",
 	"notification-link-text-view-mention": "Прагляд згадкі",
@@ -178,7 +179,7 @@
 	"notification-header-thank-you-10000-edit": "{{GENDER:$2|Вы}} толькі што зрабілі {{GENDER:$2|сваю}} дзесяцітысячную праўку; велізарны {{GENDER:$2|Вам}} дзякуй!",
 	"notification-header-thank-you-100000-edit": "{{GENDER:$2|Вы}} толькі што зрабілі {{GENDER:$2|сваю}} статысячную праўку; дзякуй {{GENDER:$2|Вам}} за цудоўны ўнёсак!",
 	"notification-header-thank-you-1000000-edit": "{{GENDER:$2|Вы}} толькі што зрабілі {{GENDER:$2|сваю}} мільённую праўку; дзякуй {{GENDER:$2|Вам}} за неверагодны ўнёсак!",
-	"notification-header-thank-you-10000000-edit": "{{GENDER:$2|Вы}} толькі што зрабілі {{GENDER:$2|сваю}} дзесяцімільённую праўку; дзякуй {{GENDER:$2|Вам}} за неверагодны ўнёсак!",
+	"notification-header-thank-you-10000000-edit": "{{GENDER:$2|Вы}} толькі што зрабілі {{GENDER:$2|сваю}} дзесяцімільённую праўку; дзякуй {{GENDER:$2|вам}} за цудоўны ўнёсак!",
 	"notification-link-thank-you-edit": "{{GENDER:$1|Ваша}} праўка",
 	"notification-link-text-view-edit": "Прагляд праўкі",
 	"notification-link-article-reminder": "Прагляд старонкі",
