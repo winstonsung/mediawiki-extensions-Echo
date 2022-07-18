@@ -49,5 +49,6 @@
 	"echo-pref-tooltip-user-rights": "Padahi ulun wayah sasaurang maubah hak pamakai ulun.",
 	"echo-pref-tooltip-emailuser": "Padahi ulun amun sasaurang mangirim ulun surél.",
 	"echo-pref-tooltip-article-reminder": "Padahi ulun pasal laman ngini amun ulun minta.",
-	"tooltip-pt-notifications-alert": "Pamadahan {{GENDER:|Pian}}"
+	"tooltip-pt-notifications-alert": "Pamadahan {{GENDER:|Pian}}",
+	"tooltip-pt-notifications-notice": "Pamadahan {{GENDER:|Pian}}"
 }
