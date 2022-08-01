@@ -46,7 +46,8 @@
 			"Yasten",
 			"Zebulon84",
 			"Ayack",
-			"McDutchie"
+			"McDutchie",
+			"Cigaryno"
 		]
 	},
 	"echo-desc": "Système pour avertir les utilisateurs des événements et messages",
@@ -80,7 +81,7 @@
 	"echo-log": "Journal public",
 	"echo-new-messages": "Vous avez de nouveaux messages",
 	"echo-category-title-edit-user-talk": "Message{{PLURAL:$1||s}} sur ma page de discussion",
-	"echo-category-title-article-linked": "Article{{PLURAL:$1||s}} lié{{PLURAL:$1||s}}",
+	"echo-category-title-article-linked": "Page{{PLURAL:$1||s}} lié{{PLURAL:$1||s}}",
 	"echo-category-title-reverted": "Modification{{PLURAL:$1||s}} annulée{{PLURAL:$1||s}}",
 	"echo-category-title-mention": "Mention{{PLURAL:$1||s}}",
 	"echo-category-title-mention-failure": "Échec {{PLURAL:$1|de la mention d’un utilisateur|des mentions d’utilisateurs}}",
