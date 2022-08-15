@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Karapananguasú Kururú Teremembé"
+			"Karapananguasú Kururú Teremembé",
+			"Maracajá Teremembé"
 		]
 	},
 	"echo-desc": "Yũrepawa umbeu arã puruçara’etá mereçeçawa açui patuá mirapura reçé",
@@ -54,5 +55,14 @@
 	"echo-pref-tooltip-mention-failure": "Erembeu xe arã xe ti amurú amumĩduari yepé mira ramẽ.",
 	"echo-pref-tooltip-mention-success": "Erembeu xe arã xe ameẽ ramẽ yepé mĩduariçawa yepé mira çupé.",
 	"echo-pref-tooltip-user-rights": "Erembeu xe arã yepé mira umuterie ramẽ çe puruçara mainãgawa xiariçawa’etá.",
-	"notification-link-text-what-links-here": "Pãnhé tupaçá kuá sowa kití"
+	"echo-pref-tooltip-emailuser": "Erembeu xe yepé mira umeẽ ramẽ yepé emayu.",
+	"echo-pref-tooltip-article-reminder": "Erembeu xe kuá sowa reçé xe apurãdú ramẽ.",
+	"echo-pref-tooltip-thank-you-edit": "Erembeu ixé asika ramẽ yepewara, opaĩpowara, yepewera ... murupiawa.",
+	"notification-link-text-what-links-here": "Pãnhé tupaçá kuá sowa kití",
+	"notification-timestamp-today": "Uye",
+	"notification-timestamp-yesterday": "Kueçé",
+	"notification-inbox-filter-read": "Umũgetá",
+	"notification-inbox-filter-unread": "Mũgetaĩma",
+	"notification-inbox-filter-all": "Pãnhé",
+	"echo-specialmute-label-mute-notifications": "Umutipuĩma pãnhé mbeuçawa’etá kuá {{GENDER:$1|puruçara}} çuiwara"
 }
