@@ -54,7 +54,7 @@
 	"apihelp-query+notifications-param-alertunreadfirst": "是否要先顯示未讀的訊息通知（僅當groupbysection未設定時使用）。",
 	"apihelp-query+notifications-param-messagecontinue": "當有更多訊息結果時，使用此參數來繼續。",
 	"apihelp-query+notifications-param-messageunreadfirst": "是否要先顯示未讀的警告通知（僅當groupbysection未設定時使用）。",
-	"apihelp-query+notifications-param-titles": "只返回这些页面的通知。要獲取未分配給任何頁面的通知，使用[]作為標題。",
+	"apihelp-query+notifications-param-titles": "只回傳這些頁面的通知。要獲取未分配給任何頁面的通知，請使用[]作為標題。",
 	"apihelp-query+notifications-param-bundle": "是否根據通知類型捆綁規則，顯示兼容捆綁的未讀通知。",
 	"apihelp-query+notifications-example-1": "通知清單",
 	"apihelp-query+notifications-example-2": "依章節分類通知清單並顯示總數",
