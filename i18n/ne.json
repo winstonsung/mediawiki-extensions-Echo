@@ -10,7 +10,8 @@
 			"सरोज कुमार ढकाल",
 			"हिमाल सुबेदी",
 			"Nirajan pant",
-			"Bada Kaji"
+			"Bada Kaji",
+			"बडा काजी"
 		]
 	},
 	"echo-desc": "प्रयोगकर्तालाई सम्मेलन तथा सन्देश सूचना दिने जानकारी प्रणाली",
@@ -39,6 +40,7 @@
 	"echo-pref-cross-wiki-notifications": "अन्य विकिहरूबाट प्राप्त अधिसूचनाहरू देखाउनुहोस्",
 	"echo-pref-notifications-blacklist": "यी प्रयोगकर्ताहरूबाट आउने अधिसूचनाहरू नदेखाउनू।\n([[mw:Special:MyLanguage/Help:Notifications#mute|थप जान्नुहोस्]])",
 	"echo-learn-more": "थप जान्नुहोस्",
+	"echo-log": "सार्वजनिक अभिलेखहरू",
 	"echo-new-messages": "तपाईंको लागि नयाँ सन्देशहरू छन्",
 	"echo-category-title-edit-user-talk": "वार्तालाप पृष्ठ  {{PLURAL:$1|सन्देश|सन्देशहरू}}",
 	"echo-category-title-article-linked": "पृष्ठ {{PLURAL:$1|लिङ्क|लिङ्कहरू}}",
@@ -105,6 +107,7 @@
 	"notification-compact-header-page-linked": "<strong>$1</strong> बाट सूत्रबद्ध",
 	"notification-link-text-what-links-here": "यस पृष्ठका सबै सूत्रहरू",
 	"notification-compact-header-mention-failure-user-unknown": "<strong>प्रयाेगकर्ता नाम हाल अस्तित्वमा छैन:</strong> $1",
+	"notification-compact-header-mention-success": "<strong>{{GENDER:$2|तपाईंले उल्लेख गर्नुभयो}}:</strong> $3",
 	"notification-welcome-linktext": "स्वागतम्",
 	"notification-header-thank-you-1-edit": "{{GENDER:$2|तपाई}}ले भर्खरै {{GENDER:$2|आफ्नाे}} पहिलाे सम्पादन गर्नु भएकाे छ; {{GENDER:$2|तपाई}}लाई धन्यवाद र स्वागत् छ!",
 	"notification-header-thank-you-10-edit": "{{GENDER:$2|तपाई}}ले भर्खरै {{GENDER:$2|आफ्नाे}} दशाैँ सम्पादन गर्नु भएकाे छ; {{GENDER:$2|तपाई}}लाई धन्यवाद छ!",

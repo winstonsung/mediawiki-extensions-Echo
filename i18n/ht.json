@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tisave"
+			"Tisave",
+			"Amire80"
 		]
-	}
+	},
+	"prefs-echo": "Notifikasyon"
 }
