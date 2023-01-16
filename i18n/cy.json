@@ -44,7 +44,7 @@
 	"echo-none": "Nid oes unrhyw hysbysiadau gennych.",
 	"notification-link-text-view-message": "Gweld y neges",
 	"notification-link-text-view-mention": "Gweld y crybwyll",
-	"notification-link-text-view-changes": "Gweld y newidiadau",
+	"notification-link-text-view-changes": "{{GENDER:$1|Gweld}} y newidiadau",
 	"notification-link-text-view-page": "Gweld y dudalen",
 	"notification-link-text-view-edit": "Gweld y golygiad",
 	"notification-header-reverted": "{{GENDER:$2|Dadwneuthpwyd}} eich {{PLURAL:$4||golygiad ar $3|golygiadau ar $3}} gan $1.",
