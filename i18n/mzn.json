@@ -4,5 +4,7 @@
 			"محک"
 		]
 	},
-	"tooltip-pt-notifications-alert": "{{GENDER:|شمه}} هشدارون"
+	"tooltip-pt-notifications-alert": "{{GENDER:|شمه}} هشدارون",
+	"notification-link-text-expand-all": "دیار",
+	"notification-link-text-collapse-all": "پیتی"
 }
