@@ -8,7 +8,8 @@
 			"Meno25",
 			"بدارين",
 			"ديفيد",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Alshamiri1"
 		]
 	},
 	"apihelp-echomarkread-description": "علم الإخطارات للقراءة للمستخدم الحالي.",
@@ -26,6 +27,19 @@
 	"apihelp-echomarkseen-example-1": "التعليم على الإخطارات من كل الأنواع كمنظورة",
 	"apihelp-echomarkseen-param-type": "نوع الإشعارت  لتحديد كما تبدو على أنها: 'تنبيه' 'رسالة'  أو 'كل'.",
 	"apihelp-echomarkseen-param-timestampFormat": "صيغة الطابع الزمني للاستخدام للناتج 'ISO_8601' أو 'MW'.  'MW' مستغنى عنه هنا، لذا فكل العملاء ينبغي أن يتحولوا إلى 'ISO_8601'.  هذا المعامل ستتم إزالته، و 'ISO_8601' سيصبح صيغة الناتج الوحيدة.",
+	"apihelp-echomute-description": "كتم أو إلغاء كتم الإشعارات من مستخدمين أو صفحات معينة.",
+	"apihelp-echomute-summary": "كتم أو إلغاء كتم الإشعارات من مستخدمين أو صفحات معينة.",
+	"apihelp-echomute-param-type": "قائمة كتم الصوت للإضافة إليها أو الإزالة منها",
+	"apihelp-echomute-param-mute": "صفحات أو مستخدمين لإضافتهم إلى قائمة كتم الصوت",
+	"apihelp-echomute-param-unmute": "الصفحات أو المستخدمين المراد حذفهم من قائمة التجاهل",
+	"apihelp-echopushsubscriptions-summary": "إدارة دفع الاشتراكات للمستخدم الحالي.",
+	"apihelp-echopushsubscriptions-param-command": "العمل لأداء.",
+	"apihelp-echopushsubscriptions+create-summary": "تسجيل اشتراكات الدفع للمستخدم الحالي.",
+	"apihelp-echopushsubscriptions+create-param-provider": "مزود خدمة الدفع الذي يتم تسجيل رمز مميز له.",
+	"apihelp-echopushsubscriptions+create-param-providertoken": "رمز التسجيل.",
+	"apihelp-echopushsubscriptions+create-example": "تسجيل اشتراك دفع للمستخدم الحالي.",
+	"apihelp-echopushsubscriptions+delete-param-providertoken": "الرمز المرتبط باشتراك الدفع لإلغاء التسجيل.",
+	"apihelp-echopushsubscriptions+delete-example": "إلغاء تسجيل الاشتراك الفوري للمستخدم الحالي.",
 	"apihelp-query+notifications-description": "الحصول على الإخطارات قيد الانتظار للمستخدم الحالي.",
 	"apihelp-query+notifications-summary": "الحصول على إشعارات في انتظار المستخدم الحالي.",
 	"apihelp-query+notifications-param-prop": "طلب تفاصيل.",
@@ -65,5 +79,7 @@
 	"apiwarn-echo-deprecation-timestampformat": "صيغة خرج MW timestamp مستغنى عنها هنا. في المستقبل، ISO 8601 سيتم استخدامها دائما لصيغة خرج الطابع الزمني. عدل عميلك واضبط  <var>timestampFormat</var> إلى <kbd>ISO_8601</kbd>.",
 	"apiwarn-echo-deprecation-flyout": "<kbd>notformat=flyout</kbd> تم الاستغناء عنها وستتم إزالتها قريبا. استخدم <kbd>notformat=model</kbd> للحصول على البيانات الخام أو <kbd>notformat=special</kbd> لHTML المهيأ مسبقا.",
 	"apiwarn-echo-deprecation-html": "<kbd>notformat=html</kbd> تم الاستغناء عنها وستتم إزالتها قريبا. استخدم <kbd>notformat=special</kbd> بدلا منها.",
-	"apierror-echo-event-creation-failed": "لا يمكن إنشاء حدث إشعارات"
+	"apierror-echo-event-creation-failed": "لا يمكن إنشاء حدث إشعارات",
+	"apierror-echo-push-token-exists": "الرمز المقدم موجود بالفعل في قاعدة البيانات.",
+	"apierror-echo-push-token-not-found": "لم يتم العثور على الرمز المميز المقدم في قاعدة البيانات."
 }
