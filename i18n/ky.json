@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Janatkg"
+			"Janatkg",
+			"Bosogo"
 		]
-	}
+	},
+	"echo-pref-email": "Эл. почта"
 }
