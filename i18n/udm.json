@@ -3,9 +3,11 @@
 		"authors": [
 			"AlnashPiyash2",
 			"Kaganer",
-			"Wadorgurt"
+			"Wadorgurt",
+			"Kotwys",
+			"Света Поторочина"
 		]
 	},
 	"tooltip-pt-notifications-alert": "{{GENDER:|Тӥляд}} ивортонъёсты",
-	"notification-inbox-filter-all": "Ваньзэ"
+	"notification-inbox-filter-all": "Ваньмыз"
 }
