@@ -9,7 +9,8 @@
 			"فلورانس",
 			"Beginneruser",
 			"Jeeputer",
-			"Mohammad ebz"
+			"Mohammad ebz",
+			"Amire80"
 		]
 	},
 	"apihelp-echomarkread-description": "آگاه‌سازی‌‌ها برای کاربر کنونی به عنوان خوانده‌شده نشانه‌گذاری شوند.",
@@ -67,6 +68,6 @@
 	"apihelp-echoarticlereminder-example-2": "ساخت آگاه‌سازی یادآور برای فردا همراه بدون توضیح",
 	"apiwarn-echo-deprecation-timestampformat": "قالب خروجی مدیاویکی در اینجا منسوخ شده‌است. در آینده، ایزو ۸۶۰۱ همواره برای قالب خروجی برچسب زمان استفاده خواهد شد. برنامهٔ خود را تنظیم کنید و <var>timestampFormat</var> را برابر <kbd>ISO_8601</kbd> قرار دهید.",
 	"apiwarn-echo-deprecation-flyout": "<kbd>notformat=flyout</kbd> منسوخ شده و به زودی حذف خواهد شد. از <kbd>notformat=model</kbd> برای گرفتن داده‌های خام و از <kbd>notformat=special</kbd> برای گرفتن اچ‌تی‌ام‌ال استفاده کنید.",
-	"apiwarn-echo-deprecation-html": "<kbd>notformat=html</kbd> منسوخ شده و به زودی حذف خواهد شد. به جای آن از  <kbd>notformat=special</kbd> استفاده کنید.",
+	"apiwarn-echo-deprecation-html": "<kbd>notformat=html</kbd> منسوخ شده و به زودی حذف خواهد شد. به جای آن از <kbd>notformat=special</kbd> استفاده کنید.",
 	"apierror-echo-event-creation-failed": "امکان ایجاد رویداد سامانه آگاه‌سازی وجود ندارد"
 }

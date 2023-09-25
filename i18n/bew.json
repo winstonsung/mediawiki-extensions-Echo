@@ -75,7 +75,7 @@
 	"echo-displaynotificationsconfiguration-mandatory-notification-methods-header": "Cara ma'lumat nyang dibutuhin",
 	"echo-displaynotificationsconfiguration-mandatory-notification-methods-by-category-legend": "Cara ma'lumat mana nyang pardu bakal saban katègori",
 	"echo-specialpage": "Ma'lumat",
-	"echo-specialpage-section-markread": "Tengerin paguyuban udah dibaca",
+	"echo-specialpage-section-markread": "Tengerin omplokan udah dibaca",
 	"echo-specialpage-markasread": "Ma'lumat: Tengerin udah dibaca",
 	"echo-specialpage-markasread-invalid-id": "ID kejadian kaga' aci",
 	"echo-specialpage-pagefilterwidget-aria-label": "Saring berales wiki èn judul halaman",

@@ -5,7 +5,8 @@
 			"Айсар",
 			"Лилиә",
 			"Янмурза Баки",
-			"З. ӘЙЛЕ"
+			"З. ӘЙЛЕ",
+			"Amire80"
 		]
 	},
 	"apihelp-echomarkread-description": "Ҡулланыусы өсөн барлыҡ белдереүҙәрҙее уҡылған тип билдәләү",
@@ -32,7 +33,7 @@
 	"apihelp-query+notifications-param-limit": "Кире ҡайтарылған белдереүҙәрҙең иң ҙур һаны.",
 	"apihelp-query+notifications-param-alertcontinue": "Иҫкәртеүҙәр өсөн күберәк һөҙөмтәләр рөхсәт ителһә, быны дауам итеү өсөн файҙаланығыҙ.",
 	"apihelp-query+notifications-param-unreadfirst": "Уҡылмаған белдереүҙәрҙе беренсе сиратта күрһәтергә кәрәкме (groupbysection ҡуйылмағанда ғына ҡулланыла).",
-	"apihelp-query+notifications-param-alertunreadfirst": "Уҡылмаған белдереүҙәрҙе беренсе сиратта күрһәтергә кәрәкме (groupbysection ҡуйылғанда  ғына ҡулланыла).",
+	"apihelp-query+notifications-param-alertunreadfirst": "Уҡылмаған белдереүҙәрҙе беренсе сиратта күрһәтергә кәрәкме (groupbysection ҡуйылғанда ғына ҡулланыла).",
 	"apihelp-query+notifications-param-messagecontinue": "Хәбәрҙәр өсөн күберәк һөҙөмтәләр рөхсәт ителһә, быны функцияны дауам итеү өсөн файҙаланығыҙ.",
 	"apihelp-query+notifications-param-messageunreadfirst": "Уҡылмаған белдереүҙәрҙе беренсе сиратта күрһәтергә кәрәкме (groupbysection күрһәтелгәндә генә ҡулланыла).",
 	"apihelp-query+notifications-example-1": "Белдерүҙәр исемлеге",
