@@ -292,13 +292,13 @@ function initMobile() {
 }
 
 $( function () {
-	if ( mw.config.get( 'wgMFMode' ) ) {
-		initMobile();
-	} else {
+	// if ( mw.config.get( 'wgMFMode' ) ) {
+		// initMobile();
+	// } else {
 		// Echo is intentionally disable for the Minerva desktop skin (https://phabricator.wikimedia.org/T343839)
 		// The suggested fix is documented in https://phabricator.wikimedia.org/T343838,
-		if ( mw.config.get( 'skin' ) !== 'minerva' ) {
+		// if ( mw.config.get( 'skin' ) !== 'minerva' ) {
 			initDesktop();
-		}
-	}
+		// }
+	// }
 } );
